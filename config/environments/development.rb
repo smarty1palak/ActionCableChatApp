@@ -1,6 +1,6 @@
 Rails.application.configure do
   config.action_cable.url = 'ws://localhost:3000/cable'
-  config.action_cable.allowed_request_origins = [ 'http://localhost:3000', 'http://127.0.0.1:3000' ]
+  config.action_cable.allowed_request_origins = [ 'http://localhost:3000', 'http://127.0.0.1:3000', 'http://10.52.221.116:3000' ]
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
